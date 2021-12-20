@@ -1,0 +1,19 @@
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .skills{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    /* padding-left: 200px; */
+    /* padding-right: -200px; */
+  }
+  .skill{
+    padding: 30px;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
