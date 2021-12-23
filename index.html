@@ -4,30 +4,34 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>EMIHLE CEBISA</title>
+    <link rel="icon"  type="image/x-icon" href="images/navbar & footer/logo.png">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='styles/navbar.css'>
-    <link rel='stylesheet' href='styles/landing.css'>
-    <link rel='stylesheet' href='styles/about.css'>
-    <link rel='stylesheet' href='styles/resume.css'>
-    <link rel='stylesheet' href='styles/projects.css'>
-    <link rel='stylesheet' href='styles/testimonials.css'>
-    <link rel='stylesheet' href='styles/contact.css'>
-    <link rel='stylesheet' href='styles/footer.css'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel='stylesheet' href="styles/navbar.css">
+    <link rel='stylesheet' href="styles/landing.css">
+    <link rel='stylesheet' href="styles/about.css">
+    <link rel='stylesheet' href="styles/resume.css">
+    <link rel='stylesheet' href="styles/projects.css">
+    <link rel='stylesheet' href="styles/testimonials.css">
+    <link rel='stylesheet' href="styles/contact.css">
+    <link rel='stylesheet' href="styles/footer.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
 </head>
 <body>
 <!-- navigation start     -->
 <nav class="navbar">
-    <ul>
+  <ul>
       <li><a href="#landing">home</a></li>
       <li><a href="#about">about</a></li>
       <li><a href="#resume">resume</a></li>
       <li><a href="#projects">projects</a></li>
       <li><a href="#testimonials">testimonials</a></li>
       <li><a href="#contact">contact</a></li>
-      </ul>
-  </nav>
+  </ul>
+</nav>
 <!-- navigation end  -->
 
 <!-- landing/home section start -->
@@ -35,17 +39,18 @@
     <div class='border'>
       <h1>EMIHLE CEBISA</h1>
       <h2>FULLSTACK DEVELOPER</h2>
-      <button type="button" class="btn btn-dark"><a href="#resume">get to know me</a></button>
+      <button type="button" class="btn btn-dark"><a href="#about">get to know me</a></button>
     </div>
   </section> 
 <!-- landing/home section end -->
 
 <!-- about start -->
-<section id="about"></section>
+<section id="about">
     <div class="container">
         <div class="intro">
-            <img src="images/about/Emihle2-min.JPG" style="width: 40vw; display: block; margin-left: auto; margin-right: auto;">
+            <img src="images/about & skills/Emihle2-min.JPG" style="width: 40vw; display: block; margin-left: auto; margin-right: auto;">
         </div>
+        <div class="info">
         <h1><i class="bi bi-book"></i> BIOGRAPHY</h1>
                 <P>I am a hard-working, Ambivert who loves meeting new people <br>
                     and getting to know them. <br> 
@@ -56,7 +61,7 @@
                     A family friend introduced me to coding, <br>
                     when he told me to try out Lifechoices since he knew that <br>
                     I am interested in technology. <br>  
-                </p> <br>
+                </p> 
             <h1><i class="bi bi-heart"></i> INTERESTS</h1>
                 <P>watching television series about crime solving & technology<br>
                     playing mobile games<br>
@@ -69,24 +74,26 @@
                     Time Management
                 </p>  
             <h1><i class="bi bi-brush"></i>  TECHNICAL SKILLS</h1>
+          </div>
             <div class="skills">
                 <div class="html">
-                    <img class="skill" src="images/skills/html.png" alt="images"><p class="title">Html</p>
+                    <img class="skill" src="images/about & skills/html.png" alt="images"><p class="title">Html</p>
                 </div>
               <div  class="css">
-                <img class="skill" src="images/skills/css.png" alt="image"><p class="title">Css</p>
+                <img class="skill" src="images/about & skills/css.png" alt="image"><p class="title">Css</p>
               </div>
               <div class="boot">
-                <img class="skill" src="images/skills/bootstrap.png" alt="image"><p class="title">Bootstrap</p>
+
+                <img class="skill" src="images/about & skills/bootstrap.png" alt="image"><p class="title">Bootstrap</p>
               </div>
-               <div class="mysql">
-                <img class="skill" src="images/skills/mysql.png" alt="image"><p class="title">Mysql</p>
-               </div>
+              <div class="mysql">
+                <img class="skill" src="images/about & skills/mysql.png" alt="image"><p class="title">Mysql</p>
+              </div>
                 <div class="java">
-                    <img class="skill" src="images/skills/java.png" alt="image"><p class="title">Javascript</p>
+                    <img class="skill" src="images/about & skills/java.png" alt="image"><p class="title">Javascript</p>
                 </div>
               <div class="git">
-                <img class="skill" src="images/skills/git.png" alt="image"><p class="title">Git</p>
+                <img class="skill" src="images/about & skills/git.png" alt="image"><p class="title">Git</p>
               </div>
               
             </div>
@@ -96,7 +103,7 @@
 <!-- about end -->
 
 <!-- education start -->
- <section id="resume"> 
+<section id="resume"> 
 <div class="container">
     <div class="main-timeline"> 
                             <!-- start experience section-->
@@ -219,7 +226,7 @@
 <!-- education and work experience end  -->
 <!-- projects start  -->
 <section id="projects">
-    <div class="container">
+    <div class="container-projects">
         <h2>Below are the projects i've worked on:</h2>
     <!-- project 1   -->
         <div class="card" style="width: 18rem;">
@@ -322,8 +329,160 @@
 </div>
 </section>
 <!-- projects end  -->
+<!-- testimonials start  -->
+<section id="testimonials">
+  <div class="container">
+    <h2>Below is what my collegues and lectures think of me:</h2>
+    <div class="card mb-3" >
+      <div class="row g-0">
+        <div class="col-sm-4">
+          <img src="images/testimonials/alex.jpg" class="img-fluid " alt="image">
+        </div>
+        <div class="col-sm-8">
+          <div class="card-body">
+            <h3 class="card-title"><b>Alex Sexwale</b></h3>
+            <h5 class="card-title2"><b>Lecturer</b></h5>
+            <p class="card-text">"Emihle is a hard and dedicated worker she is always looking for ways to improve on her knowledge."</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- testimonial 2  -->
+        <div class="card mb-3" >
+          <div class="row g-0">
+            <div class="col-sm-4">
+              <img src="images/testimonials/sindi.JPG" class="img-fluid" alt="image">
+            </div>
+            <div class="col-sm-8">
+              <div class="card-body">
+                <h3 class="card-title"><b>Sindile Makhathini</b></h3>
+                <h5 class="card-title2"><b>Collegue</b></h5>
+                <p class="card-text">"Emihle is someone I came to know from the Academy and I can tell she is a trustworthy, professional and would be an asset to any company she would align herself to".</p>
+              
+              </div>
+            </div>
+            </div>
+          </div>
+            <!-- testimonial 3  -->
+            <div class="card mb-3" >           
+                 <div class="row g-0">
+                <div class="col-sm-4">
+                  <img src="images/testimonials/mrgodwin.jpeg" class="img-fluid" alt="image">
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h3 class="card-title"><b>Godwin Dzvapatsva</b></h3>
+                    <h5 class="card-title2"><b>Head of Curriculum and Learning</b></h5>
+                    <p class="card-text">"Emihle has a pleasant personality and possesses some leadership qualities."</p>
+                  
+                  </div>
+                </div>
+                </div>
+                </div>
+                <!-- testimonial 4  -->
+                <div class="card mb-3" >
+                  <div class="row g-0">
+                    <div class="col-sm-4">
+                      <img src="images/testimonials/amaarah.JPG" class="img-fluid" alt="image">
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Amaarah January</b></h3>
+                        <h5 class="card-title2"><b>Collegue</b></h5>
+                        <p class="card-text">"Emihle is a great joy to be around. Her presence alone can brighten up your day.
+                          She is also a valuable team member to have as she is helpful and friendly.
+                          I enjoy working with her because she  does put a lot of effort in."</p>
+                      
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- testimonial 5  -->
+                    <div class="card mb-3" >
+                      <div class="row g-0">
+                        <div class="col-sm-4">
+                          <img src="images/testimonials/kago.JPG" class="img-fluid" alt="image">
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="card-body">
+                            <h3 class="card-title"><b>Kago Pooe</b></h3>
+                            <h5 class="card-title2"><b>Collegue</b></h5>
+                            <p class="card-text">"Being a classmate of Emihle has been a pleasure. She combines hard work and focus with genuine warmth and friendliness,
+                              Her coding skills have grown tremendously since we have taken this class."</p>
+                          
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!-- testimonial 6  -->
+                        <div class="card mb-3" >
+                          <div class="row g-0">
+                            <div class="col-sm-4">
+                              <img src="images/testimonials/craig.jpeg" class="img-fluid" alt="image">
+                            </div>
+                            <div class="col-sm-8">
+                              <div class="card-body">
+                                <h3 class="card-title"><b>Craig Braaf</b></h3>
+                                <h5 class="card-title2"><b>Collegue</b></h5>
+                                <p class="card-text">"Emihle never fails to draw in a crowd and make them laugh. She brings a sense of unity around people 
+                                  her honesty is what makes you appreciate her that much more."</p>
+                              </div>
+                            </div>
+                            </div>
+                            </div>
+</div>
+</section>
+<!-- testimonials end  -->
+
+<!-- contact start  -->
+<section id="contact">
+    <div class="container">
+        <div class="text-effect">
+            <div class="display-3"><i class="bi bi-telephone"></i>  CONTACT</div>
+        </div>
+            <div id="container">
+            <h1>&bull; Keep in Touch &bull;</h1>
+                <div class="underline">
+                </div>
+                <div class="row d-flex justify-content-center" style="margin-top: 50px;">
+                    <a href="https://github.com/CebisaE/" target="_blank" class="fa fa-github"></a> 
+                    <a href="https://www.linkedin.com/in/emihle-cebisa-60292b223" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://codepen.io/cebisae" target="_blank" class="fa fa-codepen"></a>
+                </div>
+                    
+                <form action="https://formspree.io/f/myylqgdd" method="post" id="contact_form" target="_blank">
+                <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                </div>
+                <div class="subject">
+                    <label for="subject"></label>
+                    <select placeholder="Subject line" name="subject" id="subject_input" required>
+                        <option disabled hidden selected>Subject line</option>
+                        <option>I'd like to start a project</option>
+                        <option>I'd like to ask a question</option>
+                        <option>I'd like to make a proposal</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                <input type="submit" value="Send Message" id="form_button" />
+                </div>
+                </form>
+            </div>  
+      </div> 
+</section>
 <script src='java/projects.js'></script> 
 <script src='java/testimonials.js'></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src='bootstrap/bootstrap.bundle.min.js'></script>
 </body>
 </html>
