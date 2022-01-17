@@ -1,7 +1,4 @@
 html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-style: italic;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
@@ -180,9 +177,9 @@ html {
     color: #474544;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 0.875em;
-    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
     outline: none;
     padding: 20px 35px;
     text-transform: uppercase;

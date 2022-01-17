@@ -33,4 +33,10 @@ body {
 }
 .heading{
     padding-bottom: 78px;
+    
+}
+.heading h1 {
+    border-bottom: solid 2px#474544;
+    margin: -0.512em auto;
+    line-height: 1.2;
 }
