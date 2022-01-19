@@ -158,7 +158,7 @@
   }
   
   .main-timeline .title {
-    font-size: 19px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 24px;
     margin: 0 0 15px 0
@@ -260,4 +260,7 @@
     .main-timeline .title {
         margin-bottom: 10px
     }
+}
+.description{
+  font-size: 30px;
 }
