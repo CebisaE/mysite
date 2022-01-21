@@ -1,5 +1,5 @@
 #landing{
-    background-image:url(../images/landing/pexels.jpeg);
+    background-image:url(https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,8 +11,7 @@
       font-weight: bold;
       font-style: italic;
       font-size: 25px;
-      border: 2px solid;
-      padding: 262px;
+      padding: 160px;
       text-align: center;
       margin-bottom: 150px;
       width: 100%;
@@ -45,9 +44,5 @@
   font-weight: bold;
   font-style: italic;
   font-size: 4rem
-}
-.container-landing {
-      background: rgba(0.5);
-      backdrop-filter: saturate(180%) blur(10px);
 }
   /* landing end  */

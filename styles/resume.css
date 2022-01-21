@@ -192,7 +192,7 @@
         padding: 10px 0 10px 30px
     }
     .main-timeline .title {
-        font-size: 17px
+        font-size: 35px
     }
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         padding: 10px 30px 10px 0
@@ -262,5 +262,5 @@
     }
 }
 .description{
-  font-size: 30px;
+  font-size: 26px;
 }
